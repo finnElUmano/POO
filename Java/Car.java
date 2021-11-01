@@ -1,10 +1,10 @@
 package Java;
 
 class Car {
-  Integer id;
-  String license;
-  Account driver;
-  private Integer passenger;
+  private Integer id;
+  private String license;
+  private Account driver;
+  protected Integer passenger;
 
   public Car(String license, Account driver) {
     this.license = license;
